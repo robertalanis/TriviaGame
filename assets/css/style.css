@@ -1,0 +1,41 @@
+/*setting background image*/
+body {   
+    background-image: url(../images/background.jpg);
+    background-color: green;
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire */
+    font-family: 'Open Sans', ;
+}
+
+/*main container*/
+.wrapper{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+/*green box*/
+.content {
+   
+    background-color: rgb(9, 36, 28);
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    text-align: center;
+    color: rgb(218, 129, 143);
+}
+
+#title {
+    font-family: 'Bowlby One SC';
+    letter-spacing: 3px;
+    text-decoration: underline papayawhip;
+}
+
+.game {
+    background-color:peru;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+}
